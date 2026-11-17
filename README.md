@@ -1,7 +1,7 @@
 ## Groups
 
 ```sh
-doas usermod -aG wheel,video,audio,kvm,libvirt,docker,network,bluetooth badr
+doas usermod -aG wheel,video,audio,kvm,libvirt,docker,network,bluetooth $USER
 ```
 
 ## Services
