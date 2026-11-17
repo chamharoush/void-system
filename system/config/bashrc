@@ -46,7 +46,3 @@ fi
 
 export PATH="$HOME/src/bin:$HOME/.local/bin:$PATH"
 export DOCKER_BUILDKIT=1
-
-
-# Added by Antigravity CLI installer
-export PATH="/home/bkaztaou/.local/bin:$PATH"
