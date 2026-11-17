@@ -1,0 +1,8 @@
+setxkbmap -layout us -option caps:escape
+
+sxhkd &
+pipewire &
+
+~/src/bin/dwm-status.sh &
+
+exec dbus-run-session dwm

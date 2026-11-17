@@ -1,0 +1,16 @@
+# .bash_profile
+
+# Get the aliases and functions
+[ -f $HOME/.bashrc ] && . $HOME/.bashrc
+
+export SCRIPTS="$HOME/src/bin"
+export BROWSER="firefox"
+export TERMINAL="st"
+export TERM="st"
+export EDITOR="nvim"
+
+[[ ! $DISPLAY && $(tty) = "/dev/tty1" ]] && startx
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/bkaztaou/.local/bin:$PATH"

@@ -1,0 +1,29 @@
+super + Return
+    $TERMINAL
+
+super + Escape
+    $SCRIPTS/exit.sh
+
+super + c
+    $SCRIPTS/cleanup.sh
+
+super + v
+    virt-manager
+
+super + b
+    $BROWSER
+
+super + w
+    $SCRIPTS/wifi.sh
+
+super + s
+    maim -s | xclip -selection clipboard -t image/png 
+
+super + x
+    keepassxc
+
+super + shift + S
+    $SCRIPTS/screenshot.sh
+
+super + {minus,equal,0}
+    $SCRIPTS/volume.sh {down,up,mute}
