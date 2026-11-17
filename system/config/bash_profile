@@ -7,10 +7,7 @@ export SCRIPTS="$HOME/src/bin"
 export BROWSER="firefox"
 export TERMINAL="st"
 export TERM="st"
-export EDITOR="nvim"
+export EDITOR="vim"
 
 [[ ! $DISPLAY && $(tty) = "/dev/tty1" ]] && startx
 
-
-# Added by Antigravity CLI installer
-export PATH="/home/bkaztaou/.local/bin:$PATH"
