@@ -1,4 +1,17 @@
-# void-system
+<div align="center">
+
+```ansi
+[1;35m
+     __     ______  _____ _____         ____   _____ 
+     \ \   / / __ \|_   _|  __ \       / __ \ / ____|
+      \ \_/ / |  | | | | | |  | |_____| |  | | (___  
+       \   /| |  | | | | | |  | |_____| |  | |\___ \ 
+        | | | |__| |_| |_| |__| |     | |__| |____) |
+        |_|  \____/|_____|_____/       \____/|_____/ 
+                                                     
+[0m
+[1;95m  🟣  A minimal, suckless Void Linux desktop environment setup  🟣[0m
+```
 
 A minimal, suckless based Void Linux desktop setup with automated package installation, dotfiles, and system configurations.
 
