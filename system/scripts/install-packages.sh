@@ -16,6 +16,7 @@ dejavu-fonts-ttf
 noto-fonts-ttf
 noto-fonts-ttf-extra
 noto-fonts-emoji
+nerd-fonts-ttf
 nerd-fonts-symbols-ttf
 NetworkManager
 alsa-pipewire
