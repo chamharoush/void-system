@@ -1,23 +1,24 @@
+<div align="center">
+
 ```ansi
 [1;35m
-     __     ______  _____ _____         ____   _____ 
-     \ \   / / __ \|_   _|  __ \       / __ \ / ____|
-      \ \_/ / |  | | | | | |  | |_____| |  | | (___  
-       \   /| |  | | | | | |  | |_____| |  | |\___ \ 
-        | | | |__| |_| |_| |__| |     | |__| |____) |
-        |_|  \____/|_____|_____/       \____/|_____/ 
-                                                     
+                 __      ______  _____ _____         ____   _____ 
+                 \ \    / / __ \|_   _|  __ \       / __ \ / ____|
+                  \ \  / / |  | | | | | |  | |     | |  | | (___  
+                   \ \/ /| |  | | | | | |  | |     | |  | |\___ \ 
+                    \  / | |__| |_| |_| |__| |     | |__| |____) |
+                     \/   \____/|_____|_____/       \____/|_____/ 
 [0m
-[1;95m  🟣  A minimal, suckless Void Linux desktop environment setup  🟣[0m
+
 ```
 
 A minimal, suckless based Void Linux desktop setup with automated package installation, dotfiles, and system configurations.
 
 ## Prerequisites
 
-- A fresh base installation of **Void Linux** (glibc or musl)
-- Working internet connection
-- A non-root user with `sudo` privileges
+* A fresh base installation of **Void Linux** (glibc or musl)
+* Working internet connection
+* A non-root user with `sudo` privileges
 
 ---
 
@@ -37,7 +38,7 @@ sudo xbps-install -Sy git
 ### 2. Clone the Repository
 
 ```sh
-git clone https://github.com/chamharoush/void-system
+git clone [https://github.com/chamharoush/void-system](https://github.com/chamharoush/void-system)
 cd void-system
 
 ```
@@ -78,6 +79,7 @@ Copy the configuration files to your home directory (`~`) and prepend them with 
 cp config/xinitrc ~/.xinitrc
 cp config/bashrc ~/.bashrc
 cp config/bash_profile ~/.bash_profile
+
 ```
 
 ### 6. Enable System Services
@@ -92,6 +94,7 @@ doas ln -s /etc/sv/chronyd /var/service/
 doas ln -s /etc/sv/libvirtd /var/service/
 doas ln -s /etc/sv/docker /var/service/
 doas ln -s /etc/sv/polkitd /var/service/
+
 ```
 
 ### 7. Compile Suckless Tools
@@ -102,14 +105,20 @@ Build and install each suckless utility (`dwm`, `st`, `dmenu`):
 for tool in dwm st dmenu; do
   cd "src/$tool" && doas make clean install && cd -
 done
+
 ```
 
 ### 8. Reboot
 
 ```sh
 doas reboot
+
 ```
 
 After rebooting, log in and **Voilà!**
 
 ---
+
+```
+
+```
