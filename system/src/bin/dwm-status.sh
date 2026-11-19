@@ -10,7 +10,7 @@ prev_total=0
 prev_idle=0
 
 module_action() {
-    echo "[😈 Chamharoush]"
+    echo "[😈]"
 }
 
 module_network() {
