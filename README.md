@@ -1,6 +1,6 @@
+```ansi
 <div align="center">
 
-```ansi
 [1;35m
                  __      ______  _____ _____         ____   _____ 
                  \ \    / / __ \|_   _|  __ \       / __ \ / ____|
@@ -11,7 +11,6 @@
 [0m
 
 ```
-
 A minimal, suckless based Void Linux desktop setup with automated package installation, dotfiles, and system configurations.
 
 ## Prerequisites
