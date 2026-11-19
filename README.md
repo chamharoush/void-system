@@ -115,9 +115,3 @@ doas reboot
 ```
 
 After rebooting, log in and **Voilà!**
-
----
-
-```
-
-```
